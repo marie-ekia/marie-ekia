@@ -1,0 +1,67 @@
+
+```css
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header (navigation bar) */
+header {
+    background-color: #64b3a9;
+    color: #24b873;
+    padding: 10px;
+}
+
+/* Style the logo in the header */
+header img {
+    max-width: 500px; 
+    height: 100px;
+}
+
+/* Style the navigation links */
+.navbar-nav .nav-item {
+    margin: 10px;
+}
+
+/* Style the main content area */
+.container {
+    padding: 20px;
+}
+img.centered {
+        width: 300px;
+        height: 100px; 
+}
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the links in the footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the links on the page */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Style links when hovering over them */
+a:hover {
+    text-decoration:underline;
+}
+```
+
