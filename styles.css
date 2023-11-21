@@ -1,67 +1,101 @@
-
-```css
-
-* {
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    color: #333; /* Set default text color */
+    background-image: url('office\ 2-1367276.jpg'); 
+    background-size: cover;
+
 }
 
-/* Set a background color for the entire page */
-body {
-    background-color: #f5f5f5;
-    font-family: Arial, sans-serif;
+body.contact {
+    background-image: url('HTML_IMAGE.png');
+    background-size: cover;
+    
+    color: #1c1818; 
 }
 
-/* Style the header (navigation bar) */
 header {
-    background-color: #64b3a9;
-    color: #24b873;
-    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
 }
 
-/* Style the logo in the header */
-header img {
-    max-width: 500px; 
-    height: 100px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Style the navigation links */
-.navbar-nav .nav-item {
-    margin: 10px;
+.logo {
+    display: flex;
+    align-items: center;
 }
 
-/* Style the main content area */
-.container {
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-content {
+    
     padding: 20px;
+    background-size: cover;
+    background-position:center ;
 }
-img.centered {
-        width: 300px;
-        height: 100px; 
+
+.job-seeker {
+    width: 250px;
+    margin: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
-/* Style the footer */
+
+.job-seeker img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.job-seeker .info {
+    padding: 10px;
+    text-align: center;
+}
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
-
-/* Style the links in the footer */
-footer a {
-    color: #fff;
+.next-page-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #8f8b8b;
+    color: #f0e6e6;
     text-decoration: none;
+    text-align: center;
 }
 
-/* Style the links on the page */
-a {
-    color: #007bff;
-    text-decoration: none;
+.next-page-button:hover {
+    background-color: #555;
 }
-
-/* Style links when hovering over them */
-a:hover {
-    text-decoration:underline;
-}
-```
-

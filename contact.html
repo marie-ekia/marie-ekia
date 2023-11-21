@@ -4,30 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Contact Us</title>
+    <title>Contact Us - Job Seekers Hub</title>
 </head>
-<body>
-    <!-- Include your header here (use PHP, JavaScript, or server-side includes) -->
-    <!-- You can use PHP include() or JavaScript to include header.html -->
+<body class="contact">
+    <!-- Include the header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo-icon.png" alt="Logo">
+                <h1>Job Seekers Hub</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Contact Form -->
-    <div class="contact-form">
-        <h2>Contact Us</h2>
-        <form action="submit.php" method="post">
+    <!-- Contact form -->
+    <section class="main-content">
+        <h1>Contact Us</h1>
+        <form action="submit_form.php" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
-            
+
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-            
+
             <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            
+            <textarea id="message" name="message" required></textarea>
+
             <button type="submit">Submit</button>
         </form>
-    </div>
+    </section>
 
-    <!-- Include your footer here (use PHP, JavaScript, or server-side includes) -->
-    <!-- You can use PHP include() or JavaScript to include footer.html -->
+    <!-- Include the footer -->
+    <footer>
+        <p>&copy; 2023 Job Seekers Hub. All rights reserved.</p>
+    </footer>
 </body>
 </html>
