@@ -1,0 +1,151 @@
+<!-- candidates.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333; /* Set default text color */
+            background-image: url('candidates-page-background.jpg'); /* Replace with your actual background image path */
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+        }
+
+        li {
+            margin: 0 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh; /* Set the height to 100% of the viewport height */
+            padding: 20px;
+        }
+
+        .person-info {
+            text-align: left;
+            max-width: 300px;
+        }
+
+        .person-image {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            margin: 10px;
+        }
+
+        .more-info-button {
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .more-info-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Candidates - Job Seekers Hub</title>
+</head>
+<body>
+    <!-- Include the header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo-icon.png" alt="Logo">
+                <h1>Job Seekers Hub</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content of the candidates page -->
+    <section class="main-content">
+        <!-- Candidate profiles -->
+        <div class="job-seeker">
+            <div class="person-info">
+                <h3>John Doe</h3>
+                <p>Age: 30</p>
+                <!-- Add more information as needed -->
+                <a href="more-info.html" class="more-info-button">More Information</a>
+            </div>
+            <img src="pexels-dziana-hasanbekava-7275385.jpg" alt="Candidate 1" class="person-image">
+        </div>
+
+        <div class="job-seeker">
+            <img src="woman.jpg" alt="Candidate 2" class="person-image">
+            <div class="person-info">
+                <h3>Jane Smith</h3>
+                <p>Age: 28</p>
+                <!-- Add more information as needed -->
+                <a href="more-info.html" class="more-info-button">More Information</a>
+            </div>
+        </div>
+
+        <!-- Add more candidates as needed -->
+
+    </section>
+
+    <!-- Include the footer -->
+    <footer>
+        <p>&copy; 2023 Job Seekers Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
