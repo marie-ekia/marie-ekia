@@ -1,0 +1,31 @@
+00:18:22	Vivi:	Reacted to "hello class :)" with 👍
+00:29:46	Pablo:	https://github.com/cjheyde/w6class1
+00:35:39	Pablo:	https://codesandbox.io/p/devbox/react-state-lifecycles-cs5dgm
+01:33:01	Lama:	passed
+01:33:04	Lama:	:)
+01:33:05	Pablo:	Reacted to "passed" with 😃
+01:35:46	Pablo:	https://legacy.reactjs.org/docs/state-and-lifecycle.html#using-state-correctly
+01:52:18	Pablo:	https://legacy.reactjs.org/docs/hello-world.html
+01:53:22	Jacek Roszkowiak:	thanks @paris ikhisemoje it works now :)
+01:53:58	paris ikhisemoje:	Reacted to "thanks @paris ikhise..." with 👏
+01:54:04	Lama:	Reacted to "thanks @paris ikhise..." with 👏
+01:54:07	paris ikhisemoje:	Replying to "thanks @paris ikhise..."
+
+no problem
+01:57:49	Lama:	Replying to "thanks @paris ikhise..."
+
+Thanks Paris and Jacek for sharing solution and screen :)
+01:58:01	Yen:	Reacted to "Thanks Paris and Jac..." with 💯
+01:58:26	Jacek Roszkowiak:	Replying to "thanks @paris ikhise..."
+
+no probs, pardon my not so great typing :D
+01:58:49	Jacek Roszkowiak:	Replying to "thanks @paris ikhise..."
+
+I immediately forget how to type when people look
+02:00:13	Lama:	Replying to "thanks @paris ikhise..."
+
+I feel you :) It would happen to me too
+02:01:02	Jacek Roszkowiak:	Replying to "thanks @paris ikhise..."
+
+:)
+02:12:34	Onur T.:	can we use react-router-dom?
