@@ -1,0 +1,37 @@
+00:27:35	Nataliia Orlova:	Hello! Are we talking about styling in React today? 
+If not, that is my question: how to do styling? I have app.css and index.css - how to work with that?
+00:41:19	Nataliia Orlova:	Reacted to "className syntax is ..." with 👍
+00:42:27	Jacek Roszkowiak:	Reacted to "className syntax is ..." with 👍
+00:48:20	Thais Santos:	Replying to "Hello! Are we talkin..."
+
+Just remember to import your new_css_file.css inside the NewComponent just like app.css is being imported in App.jsx
+01:11:46	Thais Santos:	I’d add that traditional sites would reload the whole page when you navigate to let’s say contact form (if not on the same page). With SPA only parts of the web will reload, not the whole thing.
+01:13:45	Thais Santos:	You’ll be introduced to routes in React soon which makes it behave just like the traditional, meaning each request may look like you’re moving to another page.
+01:18:49	Jacek Roszkowiak:	Reacted to "You’ll be introduced..." with 👍🏼
+01:20:40	Ibra:	Reacted to "You’ll be introduced..." with 👍
+01:24:46	Lama:	Using the Post request enables you to send json in the request body which includes the search Key and the value of the search
+01:25:19	Thais Santos:	Reacted to "Using the Post reque..." with 🚀
+01:26:12	Thais Santos:	Yes, with SPA your request to backend should return json which will be your state to update the components
+01:26:20	Ibra:	Reacted to "Using the Post reque..." with 👍
+01:26:36	Ibra:	Reacted to "Yes, with SPA your r..." with 👍
+01:26:39	Lama:	Reacted to "Yes, with SPA your r..." with 👍
+01:26:43	Jacek Roszkowiak:	1
+01:26:57	Jacek Roszkowiak:	a
+01:27:27	Jacek Roszkowiak:	b
+01:28:30	Yen:	c
+01:28:41	Shanshan Hu:	Reacted to "c" with 👍
+01:28:46	Nishadi:	Reacted to "c" with 👍
+01:28:47	paris ikhisemoje:	c
+01:29:08	Nishadi:	b
+01:29:08	paris ikhisemoje:	5. b
+01:29:13	Yen:	b
+01:29:15	Marline John:	b
+01:29:17	Lama:	b
+01:29:21	Ayesha:	b
+01:29:55	Ibra:	c
+01:29:56	Lama:	c
+01:29:56	paris ikhisemoje:	6. c
+01:29:57	Yen:	c
+01:30:01	Nishadi:	c
+01:30:04	Shanshan Hu:	Reacted to "c" with 👍
+01:30:13	khouloud:	c
