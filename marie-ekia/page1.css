@@ -1,0 +1,59 @@
+body {
+        background-image:url('Screenshot\ 2024-01-12\ 133849.png') ;
+        background-attachment: fixed;
+        background-size: 100%;
+    
+}
+
+header {
+    position: relative;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    font-size: 24px; /* Increase font size */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.gallery-item {
+    margin: 10px;
+}
+
+.artisan-story {
+    padding: 20px;
+}

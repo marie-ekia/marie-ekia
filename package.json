@@ -1,0 +1,12 @@
+{
+  "name": "marie-ekia",
+  "version": "1.0.0",
+  "description": "- 👋 Hi, I’m @marie-ekia\r - 👀 I’m interested in coding\r - 🌱 I’m currently learning javascript",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
