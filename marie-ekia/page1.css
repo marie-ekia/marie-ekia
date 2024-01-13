@@ -1,11 +1,18 @@
-body {
-        background-image:url('Screenshot\ 2024-01-12\ 133849.png') ;
-        background-attachment: fixed;
-        background-size: 100%;
-    
+body
+ {
+    background-image: url('portrait-3113651_1920.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0%;
 }
 
 header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
     position: relative;
     background-color: #333;
     color: white;
@@ -26,7 +33,7 @@ nav ul {
 }
 
 nav li {
-    display: inline;
+    display:inline-block;
     margin-right: 10px;
 }
 
