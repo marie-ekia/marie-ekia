@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @marie-ekia
-- 👀 I’m interested in coding
-- 🌱 I’m currently learning javascript
+- 👀 
+- 🌱 
   
 - 📫 How to reach me ekiamm62@gmail.com
 
